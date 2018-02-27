@@ -1,4 +1,4 @@
-package com.example.shruti.week05;
+package com.example.shruti.week005;
 
 import org.junit.Test;
 
