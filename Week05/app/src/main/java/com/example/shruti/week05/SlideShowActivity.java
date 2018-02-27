@@ -33,7 +33,7 @@ public class SlideShowActivity extends AppCompatActivity {
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
     Timer swipeTimer;
-    ArrayList<ImageModel> arrList;
+    ArrayList<com.example.shruti.week05.ImageModel> arrList;
 
 
 
@@ -51,7 +51,7 @@ public class SlideShowActivity extends AppCompatActivity {
         setContentView(R.layout.slide_show_layout);
         interval = getIntent().getIntExtra("interval", 1);
 // Log.i("interval: ",interval +"");
-        arrList = new ArrayList<ImageModel>();
+        arrList = new ArrayList<com.example.shruti.week05.ImageModel>();
         populateList();
         init();
     }
@@ -63,7 +63,7 @@ public class SlideShowActivity extends AppCompatActivity {
     }
     public void populateList() {
         for (int i = 0; i < titles.length; i++) {
-            arrList.add(new ImageModel(images[i], titles[i], desc[i]));
+            arrList.add(new com.example.shruti.week05.ImageModel(images[i], titles[i], desc[i]));
         }
     }
     private void init() {

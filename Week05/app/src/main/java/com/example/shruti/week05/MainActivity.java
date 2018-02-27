@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void startSlideShowActivity(int seconds) {
         if (seconds != 0) {
-            Intent intent = new Intent(MainActivity.this, SlideShowActivity.class);
+            Intent intent = new Intent(MainActivity.this, com.example.shruti.week05.SlideShowActivity.class);
             intent.putExtra("interval", seconds);
             this.startActivity(intent);
         } else {
