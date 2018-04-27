@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <Button
+        android:id="@+id/addSkillbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="180dp"
+        android:text="Add Skill" />
+
+    <TextView
+        android:id="@+id/usernameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/addSkillText"
+        android:layout_marginTop="20dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/skillTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_marginTop="73dp"
+        android:text="Skills" />
+
+    <EditText
+        android:id="@+id/addSkillText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/addSkillbtn"
+        android:layout_marginStart="19dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/skillsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/skillTxtView"
+        android:layout_marginStart="110dp" />
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/usernameTxtView"
+        android:layout_marginStart="124dp" />
+
+    <Button
+        android:id="@+id/searchFriendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_marginBottom="221dp"
+        android:text="Search Friend" />
+
+    <Button
+        android:id="@+id/showReqBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_marginBottom="144dp"
+        android:text="Show Requests" />
+
+    <Button
+        android:id="@+id/showFriendsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_marginBottom="73dp"
+        android:text="Friends" />
+    <!-- <fragment
+         android:id="@+id/place_autocomplete_fragment"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+         />-->
+</RelativeLayout>

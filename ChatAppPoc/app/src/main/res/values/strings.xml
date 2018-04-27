@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChatAppPoc</string>
+    <string name="firebase_database">https://chatapppoc-b9a57.firebaseio.com</string>
+    <string name="friends_list">friendsList</string>
+    <string name="request_list">requestList</string>
+    <string name="users">users</string>
+    <string name="skill_name">name</string>
+    <string name="skill_proficiency">proficiency</string>
+    <string name="title_activity_user_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="error_permission_map">true</string>
+</resources>
