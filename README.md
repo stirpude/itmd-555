@@ -43,7 +43,7 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ## Screenshots of the application
 
 
- ![alt text] (Images/login.png "Login Screenshot")
+ ![alt text](Images/login.png "Login Screenshot")
  ![alt text](Images/register.png "Register Screenshot" )
  ![alt text](Images/setlocation.png "Setting Location Screenshot")
  ![alt text](Images/skill.png "Adding Skill Screenshot" )
