@@ -1,5 +1,5 @@
 # Android Open Source Intelligent Device - 555 Final Project
-
+ 
 
 ## Android Final Project HobbyLobby Application Project Description
 
@@ -43,9 +43,12 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ## Screenshots of the application
 
 
-![alt text](Images/login.png "Login Screenshot" width="200" height="400")
-![alt text](Images/register.png "Register Screenshot" width="200" height="400")
-![alt text](Images/setlocation.png "Setting Location Screenshot" width="200" height="400")
-![alt text](Images/skill.png "Adding Skill Screenshot" width="200" height="400")
-![alt text](Images/skilladded.png " After Adding Skill Screenshot" width="200" height="400")
+ ![alt text] (Images/login.png "Login Screenshot")
+ ![alt text](Images/register.png "Register Screenshot" )
+ ![alt text](Images/setlocation.png "Setting Location Screenshot")
+ ![alt text](Images/skill.png "Adding Skill Screenshot" )
+ ![alt text](Images/skilladded.png " After Adding Skill Screenshot" )
+
+
+
 
