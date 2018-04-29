@@ -48,7 +48,7 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 #### User Registration Error Screenshot
 ![alt text](Images/registrationerror.png "Registration error" )
 
-#### User Registration 
+#### User Registration Successful
 
 ![alt text](Images/registrationsuccess.png "Register Screenshot" )
 
@@ -59,7 +59,7 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ![alt text](Images/geofireLocation.png "Request sent to communicate " )
 
 
-#### User Add Skills 
+#### User Add Skills and interests after login
 ![alt text](Images/skill.png "Skill Add" )
 
 #### User Skills Added
@@ -72,6 +72,8 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 
 #### Search result when user not found in nearby location
 ![alt text](Images/peoplenotfound.png "People Not Found" )
+
+
 
 #### Search result when user is found with similar interest in nearby location
 ![alt text](Images/peoplefound.png "People found with similar skill" )
