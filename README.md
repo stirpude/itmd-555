@@ -48,25 +48,19 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ![alt text](Images/register.png.png "Setting Location Screenshot" )
 ![alt text](Images/registrationerror.png "Registration error" )
 ![alt text](Images/searchpeople.png "Serach People " )
-
-
-
 ![alt text](Images/peoplenotfound.png "People Not Found" )
 ![alt text](Images/peoplefound.png "People found with similar skill" )
 ![alt text](Images/requestsend.png "Request sent to communicate " )
 ![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " )
-
-
-
-
 ![alt text](Images/acceptrequest.png "People Not Found" )
 ![alt text](Images/afteraccept.png "People found with similar skill" )
 ![alt text](Images/williummessagetoalexa.png "Request sent to communicate " )
 ![alt text](Images/Alexareply.png "Request sent to communicate " )
 ![alt text](Images/chatmessage.png "Request sent to communicate " )
-
-
 ![alt text](Images/geofireLocation.png "Request sent to communicate " )
+
+
+
 
 
 
