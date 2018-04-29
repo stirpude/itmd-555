@@ -68,6 +68,9 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 #### Search result when user not found in nearby location
 ![alt text](Images/peoplenotfound.png "People Not Found" )
 
+#### Search Result when no user found nearby with similar skill
+![alt text](Images/nopeoplefoundmessage.png "No friends found " )
+
 #### Search User with similar interest within nearby location
 
 
@@ -84,7 +87,6 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ![alt text](Images/requestsend.png "Request sent to communicate " )
 
 
-![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " )
 
 #### User accepts request for chat functionality before sending messages
 ![alt text](Images/acceptrequest.png "Accept request" )
