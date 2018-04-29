@@ -43,30 +43,30 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ## Screenshots of the application
 
 
-![alt text](Images/login.png "Login Screenshot" width="200" height="400")
-![alt text](Images/registrationsuccess.png" Register Screenshot" width="200" height="400")
-![alt text](Images/register.png.png "Setting Location Screenshot" width="200" height="400")
-![alt text](Images/registrationerror.png "Registration error" width="200" height="400")
-![alt text](Images/searchpeople.png "Serach People " width="200" height="400")
+![alt text](Images/login.png "Login Screenshot" )
+![alt text](Images/registrationsuccess.png" Register Screenshot" )
+![alt text](Images/register.png.png "Setting Location Screenshot" )
+![alt text](Images/registrationerror.png "Registration error" )
+![alt text](Images/searchpeople.png "Serach People " )
 
 
 
-![alt text](Images/peoplenotfound.png "People Not Found" width="200" height="400")
-![alt text](Images/peoplefound.png "People found with similar skill" width="200" height="400")
-![alt text](Images/requestsend.png "Request sent to communicate " width="200" height="400")
-![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " width="200" height="400")
+![alt text](Images/peoplenotfound.png "People Not Found" )
+![alt text](Images/peoplefound.png "People found with similar skill" )
+![alt text](Images/requestsend.png "Request sent to communicate " )
+![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " )
 
 
 
 
-![alt text](Images/acceptrequest.png "People Not Found" width="200" height="400")
-![alt text](Images/afteraccept.png "People found with similar skill" width="200" height="400")
-![alt text](Images/williummessagetoalexa.png "Request sent to communicate " width="200" height="400")
-![alt text](Images/Alexareply.png "Request sent to communicate " width="200" height="400")
-![alt text](Images/chatmessage.png "Request sent to communicate " width="200" height="400")
+![alt text](Images/acceptrequest.png "People Not Found" )
+![alt text](Images/afteraccept.png "People found with similar skill" )
+![alt text](Images/williummessagetoalexa.png "Request sent to communicate " )
+![alt text](Images/Alexareply.png "Request sent to communicate " )
+![alt text](Images/chatmessage.png "Request sent to communicate " )
 
 
-![alt text](Images/geofireLocation.png "Request sent to communicate " width="200" height="400")
+![alt text](Images/geofireLocation.png "Request sent to communicate " )
 
 
 
