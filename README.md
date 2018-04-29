@@ -42,25 +42,61 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 
 ## Screenshots of the application
 
-
+#### Login Screen
 ![alt text](Images/login.png "Login Screenshot" )
 
-#### Login Screen
+#### User Registration Error Screenshot
+![alt text](Images/registrationerror.png "Registration error" )
+
+#### User Registration 
 
 ![alt text](Images/registrationsuccess.png "Register Screenshot" )
+
+#### User Set Location Set 
 ![alt text](Images/register.png.png "Setting Location Screenshot" )
-![alt text](Images/registrationerror.png "Registration error" )
-![alt text](Images/searchpeople.png "Serach People " )
-![alt text](Images/peoplenotfound.png "People Not Found" )
-![alt text](Images/peoplefound.png "People found with similar skill" )
-![alt text](Images/requestsend.png "Request sent to communicate " )
-![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " )
-![alt text](Images/acceptrequest.png "People Not Found" )
-![alt text](Images/afteraccept.png "People found with similar skill" )
-![alt text](Images/williummessagetoalexa.png "Request sent to communicate " )
-![alt text](Images/Alexareply.png "Request sent to communicate " )
-![alt text](Images/chatmessage.png "Request sent to communicate " )
+
+#### User current location is set after successful registration in Firebase
 ![alt text](Images/geofireLocation.png "Request sent to communicate " )
+
+
+#### User Add Skills 
+![alt text](Images/skill.png "Skill Add" )
+
+#### User Skills Added
+![alt text](Images/skilladded.png "Skill Added" )
+
+#### Search User with similar interest within nearby location
+
+
+![alt text](Images/searchpeople.png "Serach People " )
+
+#### Search result when user not found in nearby location
+![alt text](Images/peoplenotfound.png "People Not Found" )
+
+#### Search result when user is found with similar interest in nearby location
+![alt text](Images/peoplefound.png "People found with similar skill" )
+
+#### Send ADD request to users with similar interest for sending messages
+![alt text](Images/requestsend.png "Request sent to communicate " )
+
+
+![alt text](Images/nopeoplefoundmessage.png "Request sent to communicate " )
+
+#### User accepts request for chat functionality before sending messages
+![alt text](Images/acceptrequest.png "Accept request" )
+
+#### User accepts request 
+![alt text](Images/afteraccept.png "People found with similar skill" )
+
+#### After user Alexa accepts request to send messages,user William can send message to Alexa
+![alt text](Images/williummessagetoalexa.png "Request sent to communicate " )
+
+#### User Alexa replies back
+![alt text](Images/Alexareply.png "Request sent to communicate " )
+
+#### Both Users Chat functionality Screenshot
+![alt text](Images/chatmessage.png "Request sent to communicate " )
+
 
 
 
