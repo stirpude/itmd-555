@@ -53,7 +53,7 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 ![alt text](Images/registrationsuccess.png "Register Screenshot" )
 
 #### User Set Location Set 
-![alt text](Images/register.png.png "Setting Location Screenshot" )
+![alt text](Images/register.png "Setting Location Screenshot" )
 
 #### User current location is set after successful registration in Firebase
 ![alt text](Images/geofireLocation.png "Request sent to communicate " )
