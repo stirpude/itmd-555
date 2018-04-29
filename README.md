@@ -88,7 +88,7 @@ GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, 
 
 
 
-#### User accepts request for chat functionality before sending messages
+#### User William accepts request for chat functionality before they can communicate 
 ![alt text](Images/acceptrequest.png "Accept request" )
 
 #### User accepts request 
