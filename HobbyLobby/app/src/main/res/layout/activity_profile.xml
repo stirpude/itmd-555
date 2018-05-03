@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hobbylobby.android.Profile"
+
+    android:background="@drawable/hobbybg"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+
+    <Button
+        android:id="@+id/addSkillbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/showReqBtn"
+        android:layout_below="@+id/skillTxtView"
+        android:background="@drawable/buttons"
+        android:text="@string/add_skill"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/usernameTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/addSkillText"
+        android:layout_marginTop="20dp"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/skillTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_marginTop="64dp"
+        android:text="@string/skillsTxt"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addSkillText"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/skillTxtView"
+        android:layout_marginStart="29dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/skillsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/skillTxtView"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/usernameTxtView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_toRightOf="@+id/usernameTxtView"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:paddingStart="5dp"
+        android:layout_toEndOf="@+id/usernameTxtView" />
+
+    <Button
+        android:id="@+id/searchFriendBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="false"
+        android:layout_alignStart="@+id/usernameTxtView"
+        android:layout_below="@+id/addSkillText"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:text="@string/search_friend"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/showReqBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/searchFriendBtn"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/buttons"
+        android:text="@string/show_requests"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/showFriendsBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignStart="@+id/usernameTxtView"
+
+        android:layout_below="@+id/searchFriendBtn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons"
+        android:text="@string/friends"
+        android:textColor="#FFFFFF" />
+
+
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/addSkillbtn"
+        android:layout_alignTop="@+id/showFriendsBtn"
+        android:background="@drawable/buttons"
+        android:textColor="#FFFFFF"
+        android:text="@string/logout" />
+    <!-- <fragment
+         android:id="@+id/place_autocomplete_fragment"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+         />-->
+</RelativeLayout>
